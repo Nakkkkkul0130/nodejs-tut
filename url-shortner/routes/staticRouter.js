@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
 });
 
 router.get("/signup", (req, res) => {
-  return res.render("signup");
+  return res.render("signup");          // this render method is used to display the signup page, used in ejs this render method 
 });
 
 router.get("/login", (req, res) => {
