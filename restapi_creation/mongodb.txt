@@ -1,0 +1,3 @@
+we create the schema for structure 
+using this schema we create a model
+and from this model we do CRUD operations

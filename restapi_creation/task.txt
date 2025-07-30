@@ -1,0 +1,18 @@
+we will create RESTAPI which support JSON
+
+GET /users - HTML document reader
+GET /api/users - List all users JSON 
+
+GET /api/users/1 - Get the user with id 1
+GET /api/users/2 - Get the user with id 2
+
+// these 1,2,3 are dynamic path paramter we can not do like app.use('/api/users/1') and same for all 
+// we use '/api/users/:id'          // if colon is used before any variable means it dynamic
+
+POST /api/users  - create new users
+
+PATCH /api/users/1 - Edit the user with id 1
+
+DELETE /api/users/1 - Delete the users with id 1
+
+## we use mocaro for fake data generating
